@@ -24,7 +24,6 @@ Ce projet est un site web simple présentant une collection de recettes de cuisi
 
 Pour cloner et exécuter ce projet localement, lancez les commandes suivantes dans votre terminal :
 
-```bash
 git clone https://github.com/AnthonyNap/Recettes_cuisine.git
 cd Recettes_cuisine
 # Ouvrir index.html dans votre navigateur préféré
