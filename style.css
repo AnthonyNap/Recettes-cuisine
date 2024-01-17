@@ -1,0 +1,145 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Images */
+header img {
+    width: 100%; /* assure que l'image s'étend sur toute la largeur */
+    height: 300px; /* hauteur fixe pour l'image - ajustez selon vos besoins */
+    object-fit: cover; /* assure que l'image couvre la zone sans perdre ses proportions */
+    object-position: center; /* centre l'image dans l'espace alloué */
+}
+
+/* Style spécifique pour les images dans la section principal */
+main img {
+    max-width: 100%;
+    display: blog;
+    margin: 0;
+}
+
+/* Header */
+header h1 {
+    margin: 0;
+    color: #444;
+}
+
+header p {
+    color: #666;
+}
+
+/* Navigateur */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.2s ease, text-decoration 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+    background: #555;
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+/* main */
+main img {
+    max-width: #555;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Section Gallerie Recette  */
+.recipe-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    padding: 0.5em;
+    background-color: #f8f8f8;
+    margin: 0;
+    text-align: center;
+}
+
+.recipe-card p {
+    padding: 0.5em;
+    margin: 0;
+    text-align: justify;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
