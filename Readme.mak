@@ -1,4 +1,4 @@
-# Recettes de Cuisine
+# Recettes de Cuisine...
 
 Ce projet est un site web simple présentant une collection de recettes de cuisine. 
 Il a été conçu pour offrir une interface utilisateur claire et attrayante, mettant en avant des plats variés et sains.

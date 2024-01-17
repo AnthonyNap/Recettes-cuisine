@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: black;
+    color: #ffffff;
 }
 
 /* Images */
@@ -24,11 +25,11 @@ main img {
 /* Header */
 header h1 {
     margin: 0;
-    color: #444;
+    color: #fd0000;
 }
 
 header p {
-    color: #666;
+    color: #ffffff;
 }
 
 /* Navigateur */
@@ -37,6 +38,21 @@ nav {
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+
+.lien-accueil {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.lien-recettes {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.lien-contact {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 nav a {
@@ -95,7 +111,7 @@ footer p {
 
 .recipe-card h3 {
     padding: 0.5em;
-    background-color: #f8f8f8;
+    background-color: #000000;
     margin: 0;
     text-align: center;
 }
@@ -138,12 +154,12 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #333;
+    background: #2d0852;
     color:white;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #555;
+    background: #2b1144;
 }
