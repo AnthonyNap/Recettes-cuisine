@@ -128,7 +128,7 @@ h2 {
     text-align: center;
 }
 
-/* Form */
+/* Formulaire */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-/* Ajouté pour centrer le formulaire dans le main */
+/* formulaire dans le main */
 #content-form {
     max-width: 600px; 
     margin: 20px auto; 
