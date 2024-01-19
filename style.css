@@ -18,8 +18,9 @@ header img {
 /* Style spécifique pour les images dans la section principal */
 main img {
     max-width: 100%;
+    height: auto;
     display: blog;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -128,6 +129,10 @@ h2 {
 }
 
 /* Form */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -137,13 +142,23 @@ h2 {
     margin-bottom: 5px;
 }
 
+/* Ajouté pour centrer le formulaire dans le main */
+#content-form {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); 
+    text-align: left; 
+}
+
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-    width: 100px;
+    width: 100%; /* modification de 100px à 100% pour utiliser toute la largeur du form-group */
     padding: 10px;
-    border: 1px;
+    border: 1px solid #ccc; /* précisez la couleur de la bordure */
     border-radius: 5px;
+    margin-bottom: 15px; /* espace entre les champs */
 }
 
 .form-group textarea {
