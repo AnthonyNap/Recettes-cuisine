@@ -116,6 +116,7 @@ footer p {
     text-align: center;
 }
 
+/* Titre */
 h2 {
     text-align: center;
 }
@@ -149,6 +150,7 @@ h2 {
     height: 100px;
 }
 
+/* Button */
 button {
     display: block;
     width: 100%;
